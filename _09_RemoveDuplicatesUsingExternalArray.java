@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 import java.util.Arrays;
-public class _09_RemoveDuplicates {
+public class _09_RemoveDuplicatesUsingExternalArray {
     private static int[] removeDuplicateElements(int[] arr) {
         ArrayList<Integer> arrayList = new ArrayList<>();
         for(int element: arr) {
